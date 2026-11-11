@@ -1,0 +1,18 @@
+while True:
+    size = input("Height: ")
+
+    try:
+        if int(size) >= 1 and int(size) <= 8:
+            row = ""
+            column = ""
+            for i in range(int(size)):
+                row += "#"
+                column = " " * ((int(size) - 1) - i)
+                print(column + row)
+            break
+
+        else:
+            print("Enter a number between 1 and 8")
+
+    except ValueError:
+        print("Enter a valid Integer between 1 and 8")
