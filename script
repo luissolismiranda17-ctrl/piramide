@@ -1,3 +1,4 @@
+print("== Generador de pirámide==")
 while True:
     size = input("Height: ")
 
