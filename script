@@ -1,6 +1,7 @@
 print("== Generador de pirámide==")
 while True:
     size = input("Height: ")
+    print(f"Pirámide de altura {size} generada con éxito")
 
     try:
         if int(size) >= 1 and int(size) <= 8:
