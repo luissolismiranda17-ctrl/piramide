@@ -1,2 +1,2 @@
 # piramide
-cs50 python script
+Proyecto de consola en Python que imprime una pirámide alineada a la derecha
